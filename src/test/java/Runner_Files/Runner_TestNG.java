@@ -10,7 +10,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
         features = {"src/test/resources/feature_files"},
         glue = {"Step_Definition_Files", "Hooks"},
         plugin = {"pretty", "html:target/site/cucumber-html", "json:target/cucumber1.json"},
-        tags = "@TutorialsNinjaLogout")
+        tags = "@TutorialsNinjaLogin or @TutorialsNinjaRegistration or @TutorialsNinjaSearchProduct or @TutorialsNinjaAddToCart or @TutorialsNinjaLogout")
 
 public class Runner_TestNG extends AbstractTestNGCucumberTests {
 
