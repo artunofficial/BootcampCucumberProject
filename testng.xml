@@ -2,7 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/artun/IdeaProjects/BDD_Cucumber_Bootcamp/src/test/java/Runner_Files/Runner_TestNG.java">
-        <classes/>
+          name="C:/Users/artun/IdeaProjects/BDD_Cucumber_Bootcamp">
+        <classes>
+            <class name="Runner_Files.Runner_TestNG"/></classes>
+
     </test>
 </suite>
